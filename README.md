@@ -1,7 +1,8 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date: 27-11-2025
+## Reference Number: 212224240082
+## Name: Madhumitha R
+
 ## Problem Title
 SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
 ## Problem Description
@@ -41,27 +42,125 @@ Ministry of Fisheries, Animal Husbandry & Dairying
 Department of Animal Husbandry & Dairying (DoAH&D)
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+We propose building a Digital Farm Biosecurity Management Portal, a one-stop platform tailored for pig and poultry farmers to easily implement and monitor biosecurity practices.
+
+## Key Features
+## 1.AI-Driven Biosecurity Risk Assessment Tool
+Custom questionnaires based on farm size, location, species, and management practices.
+
+Automatic scoring of biosecurity risks with actionable recommendations.
+
+Geo-based disease vulnerability mapping.
+
+## 2.Interactive Learning & Capacity Building
+Short video-based modules, quizzes, and infographics in multiple Indian languages.
+
+Species-specific best practices (pig/poultry).
+
+Certification system for farmers completing training modules.
+
+## 3.Digital Compliance & Record-Keeping
+Daily logbooks for mortality, feed intake, visitor entry, waste management, etc.
+
+Auto-generated reports aligned with DoAH&D regulations.
+
+Stepwise guidance for obtaining compartment status (disease-free recognition).
+
+## 4.Real-Time Alerts & Data Dashboards
+Integration with state veterinary departments for disease alerts.
+
+IoT sensor support (optional) for temperature, humidity, and visitor movement.
+
+Profile-based dashboards for farmers, veterinarians, and administrators.
+
+## 5.Collaboration & Community Support
+Vet-farmer chat support and emergency assistance.
+
+Discussion forums, knowledge sharing, and expert webinars.
+
+## 6.Offline-First, Mobile-Friendly Design
+Works in low-network conditions.
+
+Lightweight interface for rural users.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+
+Technologies to Be Used
+
+Frontend: React.js / Flutter (for mobile app).
+
+Backend: Node.js / Django / FastAPI.
+
+Database: PostgreSQL + Redis (for caching).
+
+AI/ML: Python (scikit-learn, TensorFlow Lite for mobile).
+
+Mapping & Geo-Analytics: Leaflet.js / Mapbox.
+
+IoT Integration (optional): MQTT protocol, ESP32 sensors.
+
+Deployment: Docker, Kubernetes, Cloud (AWS / Azure / NIC Cloud MeghRaj).
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+## Feasibility Analysis
+Technical: Uses widely adopted, scalable technologies.
+
+Economic: Can be deployed at low cost; supported by government schemes.
+
+Operational: Direct adoption by farmers, veterinarians, and state departments.
+
+Environmental: Reduces disease outbreaks and improves sustainability.
+
+## Potential Challenges & Risks
+Low digital literacy among small farmers.
+
+Poor internet connectivity in rural areas.
+
+Resistance to adapting new tools.
+
+Data privacy and security concerns.
+
+## Strategies to Overcome Challenges
+Multilingual voice-guided UI.
+
+Offline-mode capability.
+
+On-ground training through extension workers.
+
+Strict data encryption & role-based access control.
+
+Gamified incentives to promote adoption.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+## Potential Impact on Target Audience
+Farmers gain improved awareness, productivity, and disease prevention skills.
+
+Veterinarians can monitor farms and provide guidance more effectively.
+
+Authorities benefit from real-time data for better policy decisions.
+
+## Overall Benefits
+## Social:
+
+Better animal health and reduced zoonotic disease risk.
+
+Improved farmer knowledge and empowerment.
+
+## Economic:
+Reduction in losses from disease outbreaks.
+
+Increased productivity and income stability.
+
+## Environmental:
+Improved waste management.
+
+Sustainable and responsible farming practices.
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+https://porcinehealthmanagement.biomedcentral.com/articles/10.1186/s40813-020-00181-z
+
+https://journals.acspublisher.com/index.php/ijvsbt/article/view/8214
+
+https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1231377/full
+
+
